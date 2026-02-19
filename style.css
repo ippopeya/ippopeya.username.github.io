@@ -587,3 +587,15 @@ body.menu-open .menu-backdrop{
   height: 100dvh;
   z-index: 2000 !important;
 }
+/* Greek highlight — clean cinematic emphasis */
+html[lang="el"] .approach-highlight{
+  font-style: normal;            /* убрать курсив */
+  color: rgba(0,0,0,0.85);      /* чуть темнее основного текста */
+  font-weight: 400;             /* оставить лёгкость */
+  letter-spacing: 0.01em;       /* очень subtle */
+}
+
+/* основной текст чуть мягче для контраста */
+html[lang="el"] .approach p{
+  color: rgba(0,0,0,0.68);
+}
