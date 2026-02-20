@@ -600,3 +600,27 @@ html[lang="el"] .approach p{
   color: rgba(0,0,0,0.68);
 }
 
+/* ===== GLightbox: remove fade/dim on mobile ===== */
+@media (hover: none) and (pointer: coarse){
+
+  /* выключаем любые анимации/переходы, которые делают затухание */
+  .glightbox-container *,
+  .glightbox-container .gslide,
+  .glightbox-container .gslide-media,
+  .glightbox-container .ginner-container{
+    transition: none !important;
+    animation: none !important;
+    -webkit-animation: none !important;
+  }
+
+  /* фиксируем прозрачность, чтобы не было затухания уходящего слайда */
+  .glightbox-container .gslide{
+    opacity: 1 !important;
+    filter: none !important;
+  }
+
+  .glightbox-container .gslide-media{
+    opacity: 1 !important;
+    filter: none !important;
+  }
+}
