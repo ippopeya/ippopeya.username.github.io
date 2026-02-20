@@ -625,6 +625,10 @@ html[lang="el"] .approach p{
   .logo{
     pointer-events: auto;
     cursor: pointer;
-  
+    transition: opacity 0.25s ease;
+  }
+    .logo:active{
+    opacity: 0.45;
+    transition: opacity 0.08s ease;
   }
 }
