@@ -613,5 +613,6 @@ html[lang="el"] .approach p{
   .logo{
     pointer-events: auto;
     cursor: pointer;
+    text-decoration: none;
   }
 }
