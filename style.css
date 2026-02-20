@@ -610,7 +610,7 @@ html[lang="el"] .approach p{
 @media (hover: none) and (pointer: coarse){
 
   .glightbox-container .goverlay{
-    background: rgba(0,0,0,0.72) !important;
+    background: rgba(0,0,0,0.35) !important;
     /*opacity: 1 !important;*/
   } 
 
